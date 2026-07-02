@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#d9f3ff">
+    <title>Tasyakuran Aqiqah Muhammad Zayd Al Hafidz</title>
+    <meta name="description" content="Undangan Tasyakuran Aqiqah Muhammad Zayd Al Hafidz">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="locked">
+    <audio id="invitationMusic" src="sound/sound.mp3" preload="auto" autoplay loop playsinline></audio>
+    <div class="ambient" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <main class="invite-shell">
+      <section class="cover" id="cover" aria-label="Pembuka undangan">
+        <div class="cover-stage">
+          <div class="sky-motion" aria-hidden="true">
+            <i class="soft-cloud soft-cloud-a"></i>
+            <i class="soft-cloud soft-cloud-b"></i>
+            <i class="soft-cloud soft-cloud-c"></i>
+            <i class="paper-plane"></i>
+          </div>
+
+          <div class="hero-photo">
+            <img src="img/7.jpeg" alt="Muhammad Zayd Al Hafidz memakai kostum pilot">
+          </div>
+
+          <div class="cover-copy">
+            <p class="kicker">Tasyakuran Aqiqah</p>
+            <h1><span>Muhammad</span><span>Zayd Al</span><span>Hafidz</span></h1>
+            <div class="guest-card" aria-label="Nama tamu undangan">
+              <span>Kepada Yth.</span>
+              <strong id="guestName">Bapak/Ibu/Saudara/i</strong>
+            </div>
+            <p>Dengan penuh syukur, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan mendoakan putra kami.</p>
+            <button class="open-button" type="button" id="openInvitation">
+              <span>Buka Undangan</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="greeting reveal" id="invitation">
+        <div class="photo-wash" aria-hidden="true"></div>
+        <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh</p>
+        <p>Dengan memohon rahmat dan ridha Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara Tasyakuran Aqiqah putra kami.</p>
+        <div class="family-line">
+          <span>Putra dari</span>
+          <strong>Rahul Syaifullah</strong>
+          <em>dan</em>
+          <strong>Citra Ramadhani</strong>
+        </div>
+        <article class="quran-verse" aria-label="Firman Allah SWT">
+          <span>Firman Allah SWT</span>
+          <p class="arabic">&#x0631;&#x064E;&#x0628;&#x0651;&#x0650; &#x0647;&#x064E;&#x0628;&#x0652; &#x0644;&#x0650;&#x064A; &#x0645;&#x0650;&#x0646;&#x064E; &#x0627;&#x0644;&#x0635;&#x0651;&#x064E;&#x0627;&#x0644;&#x0650;&#x062D;&#x0650;&#x064A;&#x0646;&#x064E;</p>
+          <p class="latin">Rabbi hab lii minas shaalihiin</p>
+          <p class="translation">"Ya Tuhanku, anugerahkanlah kepadaku keturunan yang termasuk orang-orang yang saleh."</p>
+          <small>QS. Ash-Shaffat: 100</small>
+        </article>
+      </section>
+
+      <section class="event reveal" aria-labelledby="event-title">
+        <p class="kicker">InsyaAllah dilaksanakan pada</p>
+        <div class="flight-path" aria-hidden="true">
+          <span></span>
+        </div>
+
+        <div class="event-list">
+          <article>
+            <small>Hari &amp; Tanggal</small>
+            <strong>Selasa, 7 Juli 2026</strong>
+          </article>
+          <article>
+            <small>Jam</small>
+            <strong>11.00 WITA</strong>
+          </article>
+          <article>
+            <small>Lokasi</small>
+            <strong>Jl. Domba No.5, Talise, Kec. Mantikulore, Kota Palu, Sulawesi Tengah 94118</strong>
+          </article>
+        </div>
+
+        <div class="map-card" aria-label="Peta lokasi acara">
+          <iframe
+            title="Peta lokasi Tasyakuran Aqiqah"
+            src="https://maps.google.com/maps?q=Jl.%20Domba%20No.5%2C%20Talise%2C%20Kec.%20Mantikulore%2C%20Kota%20Palu%2C%20Sulawesi%20Tengah%2094118&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="actions">
+          <a class="action-button primary" href="https://www.google.com/maps/search/?api=1&query=Jl.%20Domba%20No.5%2C%20Talise%2C%20Kec.%20Mantikulore%2C%20Kota%20Palu%2C%20Sulawesi%20Tengah%2094118" target="_blank" rel="noopener">Buka Lokasi</a>
+        </div>
+      </section>
+
+      <section class="countdown reveal" aria-labelledby="countdown-title">
+        <p class="kicker">Menuju hari bahagia</p>
+        <h2 id="countdown-title">Hitung Mundur</h2>
+        <div class="timer" id="timer" aria-live="polite">
+          <div><strong id="days">00</strong><span>Hari</span></div>
+          <div><strong id="hours">00</strong><span>Jam</span></div>
+          <div><strong id="minutes">00</strong><span>Menit</span></div>
+          <div><strong id="seconds">00</strong><span>Detik</span></div>
+        </div>
+      </section>
+
+      <section class="blessing reveal">
+        <div class="blessing-photo">
+          <img src="img/3.jpeg" alt="Muhammad Zayd Al Hafidz mengenakan pakaian bernuansa Islami">
+        </div>
+        <p>Ya Allah, jadikanlah anak kami anak yang saleh, sehat, cerdas, berbakti kepada kedua orang tua, dan tumbuh dalam lindungan-Mu.</p>
+      </section>
+
+      <section class="gallery reveal" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Galeri Zayd</h2>
+        <div class="gallery-stack">
+          <figure>
+            <img src="img/1.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 1">
+          </figure>
+          <figure>
+            <img src="img/2.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 2">
+          </figure>
+          <figure>
+            <img src="img/3.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 3">
+          </figure>
+          <figure>
+            <img src="img/4.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 4">
+          </figure>
+          <figure>
+            <img src="img/5.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 5">
+          </figure>
+          <figure>
+            <img src="img/6.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 6">
+          </figure>
+          <figure>
+            <img src="img/7.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 7">
+          </figure>
+          <figure>
+            <img src="img/8.jpeg" alt="Foto aqiqah Muhammad Zayd Al Hafidz 8">
+          </figure>
+        </div>
+        <a class="gallery-drive" href="https://drive.google.com/drive/folders/1FyQnaNHGYmJ0oYibuqbuiNQTee2mXGPM?usp=sharing" target="_blank" rel="noopener">Download Semua Foto</a>
+      </section>
+
+      <section class="closing reveal">
+        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+        <p class="salam">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+      </section>
+    </main>
+
+    <script src="script.js?v=3"></script>
+  </body>
+</html>
